@@ -1,3 +1,5 @@
+#ifndef NODO_H
+#define NODO_H
 #include <iostream>
 template <class T>
 class NodoLista {
@@ -17,3 +19,4 @@ public:
     }
     NodoLista<T>* getSiguiente() {return siguiente;}
 };
+#endif
