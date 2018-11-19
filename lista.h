@@ -1,4 +1,7 @@
+#ifndef LISTA_H
+#define LISTA_H
 #include <iostream>
+#include <NodoLista.h>
 template <class T>
 class Lista {
     NodoLista<T> *cabeza ;
@@ -33,4 +36,4 @@ public:
     }
 
 };
-
+#endif
