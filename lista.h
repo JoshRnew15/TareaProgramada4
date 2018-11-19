@@ -1,3 +1,4 @@
+#include <iostream>
 template <class T>
 class Lista {
     NodoLista<T> *cabeza ;
